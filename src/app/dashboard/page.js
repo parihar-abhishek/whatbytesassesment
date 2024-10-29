@@ -10,7 +10,7 @@ export default function DashboardPage(){
     <div>
 
         <Navbar />
-    <div>This is Dashboard Page Check out skilltest page which is at "/" this path </div>
+    <div>This is Dashboard Page Check out skilltest page which is at home  path </div>
 
     </div>
   )

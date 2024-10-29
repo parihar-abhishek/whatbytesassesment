@@ -1,61 +1,7 @@
-// 'use client'; // This line is important for Next.js if you're using a server component
-
-// import { CircularProgressbar } from 'react-circular-progressbar';
-// import 'react-circular-progressbar/dist/styles.css';
-
-// export default function QuestionAnalysis({ correctAnswers }) {
-//   const totalQuestions = 15;
-//   const scorePercentage = (correctAnswers / totalQuestions) * 100;
-
-//   return (
-//     <div className="p-4 border border-gray-300 rounded-md mb-6">
-//       <div className="flex justify-between items-center mb-4">
-//         <h3 className="text-lg font-bold">Question Analysis</h3>
-//         <span className="text-lg font-bold text-blue-500">
-//           {correctAnswers} / {totalQuestions}
-//         </span>
-//       </div>
-
-//       <p className="text-md text-gray-700 mb-4">
-//         <span className="font-semibold">
-//           You scored {correctAnswers} questions correct out of {totalQuestions}.
-//         </span>
-//         However, it still <br />needs some improvements.
-//       </p>
-
-//       {/* Center the Circular Progress Bar and Emoji */}
-//       <div className="flex items-center justify-center mb-4">
-//         <div className="relative w-40 h-40"> {/* Set width and height */}
-//           <CircularProgressbar
-//             value={scorePercentage}
-//             styles={{
-//               path: {
-//                 stroke: `#3b82f6`, // Tailwind indigo-600 color
-//                 strokeWidth: 8, // Increased thickness
-//               },
-//               trail: {
-//                 stroke: '#E5E7EB',
-//                 strokeWidth:8 // Tailwind gray-200 color
-//               },
-//             }}
-//           />
-//           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-3xl">
-//             🎯 {/* Archery emoji */}
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 
 
-
-
-// 
-
-
-'use client'; // This line is important for Next.js if you're using a server component
+'use client'; 
 
 import { CircularProgressbar } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';

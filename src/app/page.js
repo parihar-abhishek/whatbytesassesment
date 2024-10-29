@@ -15,7 +15,6 @@ export default function SkillTestPage() {
   const [percentile, setPercentile] = useState(30);
   const [correctAnswers, setCorrectAnswers] = useState(10);
 
-  // Update function to pass down to SkillTestHeader
   const handleUpdate = (newRank, newPercentile, newCorrectAnswers) => {
     setRank(newRank);
     setPercentile(newPercentile);
